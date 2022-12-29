@@ -1,4 +1,8 @@
-@import url('db.onlinewebfonts.com/c/b52804ac57ef6e90d2826a6b0f111133?family=Integral+CF+Bold');
+@font-face {
+    font-family: 'Integral CF';
+    src: url("IntegralCF-Bold.otf");
+}
+
 body {
 background-color: #1a1a1a;
 }
