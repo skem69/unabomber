@@ -5,6 +5,7 @@
 
 body {
 background-color: #1a1a1a;
+overflow: hidden;
 }
 
 #tis {
@@ -50,6 +51,6 @@ background-color: #1a1a1a;
 
 #footr {
     font-family: 'Inter';
-    color: white;
+    color: rgba(196, 196, 196, 0.904);
     text-align: center;
 }
