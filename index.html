@@ -10,8 +10,22 @@
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
   </head>
   <body>
+    <body oncontextmenu="false">
+      <input type="checkbox" autocomplete="off" id="overlay-toggle">
+      <div class="overlay fullscreen">
+          <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+              <span class="no-hover" style="font-family: 'Roboto Mono', font-size: 30px; monospace; font-size: 0.6em; text-shadow: 0 0 0.40em white;">[ENTER]</span>
+              <span class="hover" style="font-family: 'Roboto Mono', font-size: 30px; monospace; font-size: 0.6em; text-shadow: 0 0 0.40em white;">[ENTER]</span>
+          </label>
+          </div>
+      </div>
+      <audio loop="" preload="auto" id="audio">
+          <source src="spacesong.mp3" type="audio/mp3">
+      </audio>
+      
     <script src="snowstorm.js"></script>
     <script>
       snowStorm.excludeMobile = false;
@@ -19,21 +33,6 @@
 
     <h1 id="tis">the industrial society <br />and its future.</h1>
     <h1 id="cred">Published by Theodore ‘UNA-BOMBER’ Kaczynski.</h1>
-
-    <audio id="spacesong">
-      <source src="/music/spacesong.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
-
-    <button onclick="playAudio()" type="button" id="muib">click me</button>
-
-    <script>
-      var a = document.getElementById("spacesong");
-
-      function playAudio() {
-        a.play();
-      }
-    </script>
 
     <div class="section">
       <p>
