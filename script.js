@@ -1,4 +1,4 @@
-let counter = 0; let Title = 'skem'; let direction = true;
+let counter = 0; let Title = 'Una-Bomber'; let direction = true;
 aniTitle = setInterval(function () {
     if (counter == Title.length) direction = false;
     if (counter == false) direction = true;
